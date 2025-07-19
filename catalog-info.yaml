@@ -3,8 +3,18 @@ kind: Component
 metadata:
   name: airflow-dags
   description: Dags para execução no Airflow.
+  links:
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX  
   annotations:
     github.com/project-slug: guilhermemaas/airflow-dags
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: etl
   owner: development
