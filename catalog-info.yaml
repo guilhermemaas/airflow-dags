@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: airflow-dags
+  description: Dags para execução no Airflow.
+  annotations:
+    github.com/project-slug: guilhermemaas/airflow-dags
+spec:
+  type: etl
+  owner: development
+  lifecycle: experimental
